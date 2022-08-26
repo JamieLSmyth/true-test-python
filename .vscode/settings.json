@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}/src/main/python:${workspaceFolder}/src/test/python:$PYTHONPATH"
+    },
+    "files.exclude": {
+		"**/__pycache__": true	
+    }
+}
