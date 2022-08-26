@@ -3,6 +3,7 @@
         "PYTHONPATH": "${workspaceFolder}/src/main/python:${workspaceFolder}/src/test/python:$PYTHONPATH"
     },
     "files.exclude": {
-		"**/__pycache__": true	
-    }
+        "**/__pycache__": true	
+    },
+    "behave-vsc.envVarList": "'PYTHONPATH': '${workspaceFolder}/src/main/python:${workspaceFolder}/src/test/python:$PYTHONPATH'"
 }

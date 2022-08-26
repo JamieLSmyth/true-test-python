@@ -1,0 +1,2 @@
+[behave]
+paths=src/test/python/net/mobiustesseract/truetest/features
