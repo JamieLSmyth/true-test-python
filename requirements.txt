@@ -1,0 +1,1 @@
+nimoy-framework==1.1.1
