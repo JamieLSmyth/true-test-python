@@ -22,7 +22,7 @@ class TrueTestSpec(Specification):
     def should_reverse_parameter(self, parameter):
 
         with expect:
-            self.true_test.reverse(parameter) == parameter.reverse()
+            self.true_test.reverse(parameter) == parameter[::-1]
 
         with where:
             parameter = [str(''.join(choices(string.ascii_letters, k = randint(1, 100))))]
