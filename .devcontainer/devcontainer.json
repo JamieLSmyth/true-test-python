@@ -29,7 +29,8 @@
 	"extensions": [
 		"ms-python.python",
 		"ms-python.vscode-pylance",
-		"jimasp.behave-vsc"
+		"jimasp.behave-vsc",
+		"AdrienTecher.just-cant-git-enough"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
